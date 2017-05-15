@@ -1,15 +1,24 @@
-AC_INIT([BRiAl], [0.8.7])
+AC_INIT([libBRiAl], [0.9.0])
 
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror tar-ustar])
+AM_PROG_AR
+
+LT_INIT
+LT_CURRENT=1
+LT_REVISION=0
+LT_AGE=0
+AC_SUBST(LT_CURRENT)
+AC_SUBST(LT_REVISION)
+AC_SUBST(LT_AGE)
 
 AC_PROG_CC_C99
 if test "x$ac_cv_prog_cc_c99" = "xno"; then
     AC_MSG_ERROR("A C99 capable compiler is required")
 fi
 AC_PROG_CXX
-AM_PROG_AR
-LT_INIT
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
 
 AC_LANG([C++])
 
