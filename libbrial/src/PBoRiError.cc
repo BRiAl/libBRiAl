@@ -1,11 +1,11 @@
 // -*- c++ -*-
 //*****************************************************************************
-/** @file: brialError.cc 
+/** @file: PBoRiError.cc 
  *
  * @author Alexander Dreyer
  * @date 2006-03-06
  *
- * This file defines the class PBoriError, which is used for brial's
+ * This file defines the class PBoriError, which is used for polybori's
  * exception handling.
  *
  * @par Copyright:
@@ -13,8 +13,8 @@
 **/
 
 // load header file
-#include <brial/except/brialError.h>
-#include <brial/except/CErrorInfo.h>
+#include <polybori/except/PBoRiError.h>
+#include <polybori/except/CErrorInfo.h>
 
 BEGIN_NAMESPACE_PBORI
 

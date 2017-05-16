@@ -15,10 +15,10 @@
 
 
 // load header file
-#include <brial/BooleVariable.h>
+#include <polybori/BooleVariable.h>
 
 // get ring definitions
-  //#include <brial/BoolePolyRing.h>
+  //#include <polybori/BoolePolyRing.h>
 
 BEGIN_NAMESPACE_PBORI
 

@@ -14,7 +14,7 @@
 //*****************************************************************************
 
 // load header file
-#include <brial/except/CErrorInfo.h>
+#include <polybori/except/CErrorInfo.h>
 
 BEGIN_NAMESPACE_PBORI
 

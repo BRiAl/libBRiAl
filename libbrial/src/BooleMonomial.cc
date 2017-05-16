@@ -15,14 +15,14 @@
 
 
 // load header files
-#include <brial/BooleMonomial.h>
-#include <brial/BooleVariable.h>
-#include <brial/BooleExponent.h>
+#include <polybori/BooleMonomial.h>
+#include <polybori/BooleVariable.h>
+#include <polybori/BooleExponent.h>
 
 // get ring definitions
-#include <brial/BooleEnv.h>
+#include <polybori/BooleEnv.h>
 
-#include <brial/orderings/COrderingBase.h>
+#include <polybori/orderings/COrderingBase.h>
 
 BEGIN_NAMESPACE_PBORI
 

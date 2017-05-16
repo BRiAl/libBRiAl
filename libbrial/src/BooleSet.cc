@@ -16,28 +16,28 @@
 
 
 // load header files
-# include <brial/BooleSet.h>
-# include <brial/BooleMonomial.h>
-# include <brial/BooleExponent.h>
-# include <brial/BoolePolyRing.h>
-# include <brial/iterators/brialOutIter.h>
+# include <polybori/BooleSet.h>
+# include <polybori/BooleMonomial.h>
+# include <polybori/BooleExponent.h>
+# include <polybori/BoolePolyRing.h>
+# include <polybori/iterators/PBoRiOutIter.h>
 # include <iterator>
-# include <brial/routines/brial_algo.h>
+# include <polybori/routines/pbori_algo.h>
 
 
-#include <brial/routines/brial_algo_int.h>
+#include <polybori/routines/pbori_algo_int.h>
 
 
 // get internal routines
-# include <brial/routines/brial_routines.h>
-# include <brial/diagram/CDDOperations.h>
-# include <brial/cache/CCacheManagement.h>
+# include <polybori/routines/pbori_routines.h>
+# include <polybori/diagram/CDDOperations.h>
+# include <polybori/cache/CCacheManagement.h>
 
-// include brial iterator
-#include <brial/iterators/CGenericIter.h>
-#include <brial/LexOrder.h>
+// include polybori iterator
+#include <polybori/iterators/CGenericIter.h>
+#include <polybori/LexOrder.h>
 
-#include <brial/literals/CStringLiteral.h>
+#include <polybori/literals/CStringLiteral.h>
 
 BEGIN_NAMESPACE_PBORI
 

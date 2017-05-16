@@ -19,47 +19,47 @@
 #include <algorithm>
 #include <numeric>
 
-#include <brial/routines/brial_algo.h>
+#include <polybori/routines/pbori_algo.h>
 
 #define PBORI_USE_CCUDDFIRSTITER
 
 // load header file
-#include <brial/BoolePolynomial.h>
-#include <brial/BooleMonomial.h>
-#include <brial/BooleExponent.h>
-#include <brial/BooleSet.h>
+#include <polybori/BoolePolynomial.h>
+#include <polybori/BooleMonomial.h>
+#include <polybori/BooleExponent.h>
+#include <polybori/BooleSet.h>
 
 // get polynomial ring definition
-#include <brial/BoolePolyRing.h>
-#include <brial/BooleEnv.h>
+#include <polybori/BoolePolyRing.h>
+#include <polybori/BooleEnv.h>
 // get error types
-# include <brial/except/brialGenericError.h>
+# include <polybori/except/PBoRiGenericError.h>
 
 // get transformation algorithms
-# include <brial/routines/brial_algo.h>
+# include <polybori/routines/pbori_algo.h>
 
 // get functionals
-# include <brial/routines/brial_func.h>
+# include <polybori/routines/pbori_func.h>
 
 // include definition of output iterator over monomials
 //# include "OutMonomIter.h"
-# include <brial/iterators/brialOutIter.h>
+# include <polybori/iterators/PBoRiOutIter.h>
 
 
-# include <brial/iterators/COrderedIter.h>
+# include <polybori/iterators/COrderedIter.h>
 
 // include definition of generic string literals
-# include <brial/literals/CStringLiteral.h>
+# include <polybori/literals/CStringLiteral.h>
 
 // get internal routines
-# include <brial/routines/brial_routines.h>
-# include <brial/diagram/CDDOperations.h>
-# include <brial/cache/CDegreeCache.h>
+# include <polybori/routines/pbori_routines.h>
+# include <polybori/diagram/CDDOperations.h>
+# include <polybori/cache/CDegreeCache.h>
 
-#include <brial/iterators/CGenericIter.h>
-#include <brial/iterators/CExpIter.h>
+#include <polybori/iterators/CGenericIter.h>
+#include <polybori/iterators/CExpIter.h>
 
-#include <brial/orderings/brial_order.h>
+#include <polybori/orderings/pbori_order.h>
 
 BEGIN_NAMESPACE_PBORI
 

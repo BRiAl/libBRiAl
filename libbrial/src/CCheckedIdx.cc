@@ -14,9 +14,9 @@
 //*****************************************************************************
 
 // include basic definitions
-#include <brial/brial_defs.h>
-#include <brial/common/CCheckedIdx.h>
-#include <brial/except/brialGenericError.h>
+#include <polybori/pbori_defs.h>
+#include <polybori/common/CCheckedIdx.h>
+#include <polybori/except/PBoRiGenericError.h>
 
 BEGIN_NAMESPACE_PBORI
 

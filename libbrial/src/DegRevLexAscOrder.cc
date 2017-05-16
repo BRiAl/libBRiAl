@@ -13,16 +13,16 @@
 //*****************************************************************************
 
 // include  definitions
-#include <brial/DegRevLexAscOrder.h>
+#include <polybori/DegRevLexAscOrder.h>
 
-#include <brial/routines/brial_algo.h>
-#include <brial/iterators/brialOutIter.h>
+#include <polybori/routines/pbori_algo.h>
+#include <polybori/iterators/PBoRiOutIter.h>
 
 
 // get internal routines
-#include <brial/routines/brial_routines.h>
+#include <polybori/routines/pbori_routines.h>
 
-#include <brial/cache/CDegreeCache.h>
+#include <polybori/cache/CDegreeCache.h>
 
 BEGIN_NAMESPACE_PBORI
 

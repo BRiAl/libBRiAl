@@ -19,5 +19,5 @@ libbrial_base_la_SOURCES = \
 	DegLexOrder.cc \
 	DegRevLexAscOrder.cc \
 	LexOrder.cc \
-	brial_routines.cc \
-	brialError.cc
+	pbori_routines.cc \
+	PBoRiError.cc

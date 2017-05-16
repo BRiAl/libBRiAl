@@ -13,14 +13,14 @@
 //*****************************************************************************
 
 // include  definitions
-#include <brial/LexOrder.h>
+#include <polybori/LexOrder.h>
 
-#include <brial/routines/brial_algo.h>
-#include <brial/iterators/brialOutIter.h>
-#include <brial/except/brialError.h>
+#include <polybori/routines/pbori_algo.h>
+#include <polybori/iterators/PBoRiOutIter.h>
+#include <polybori/except/PBoRiError.h>
 
 // get internal routines
-#include <brial/routines/brial_routines.h>
+#include <polybori/routines/pbori_routines.h>
 
 BEGIN_NAMESPACE_PBORI
 

@@ -17,16 +17,16 @@
 
 
 // load header files
-#include <brial/BooleExponent.h>
-#include <brial/BooleVariable.h>
+#include <polybori/BooleExponent.h>
+#include <polybori/BooleVariable.h>
 
 // get ring definitions
-#include <brial/BoolePolyRing.h>
-#include <brial/orderings/COrderingBase.h>
-#include <brial/except/brialError.h>
+#include <polybori/BoolePolyRing.h>
+#include <polybori/orderings/COrderingBase.h>
+#include <polybori/except/PBoRiError.h>
 
-#include <brial/routines/brial_routines.h>
-#include <brial/routines/brial_algo.h>
+#include <polybori/routines/pbori_routines.h>
+#include <polybori/routines/pbori_algo.h>
 #include <functional>
 
 BEGIN_NAMESPACE_PBORI

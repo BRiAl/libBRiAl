@@ -16,24 +16,24 @@
 
 
 // load header file
-#include <brial/BoolePolyRing.h>
-#include <brial/BooleEnv.h>
+#include <polybori/BoolePolyRing.h>
+#include <polybori/BooleEnv.h>
 
 
 // get error types
-#include <brial/except/brialError.h>
+#include <polybori/except/PBoRiError.h>
 
-#include <brial/orderings/brial_order.h>
+#include <polybori/orderings/pbori_order.h>
 
-#include <brial/BooleExponent.h>
-#include <brial/BooleMonomial.h>
+#include <polybori/BooleExponent.h>
+#include <polybori/BooleMonomial.h>
 
 
 #include <climits> // LINE_MAX
 #include <cstdio> // just for tmpfile()
 
-#include <brial/BooleSet.h>
-  //#include <brial/WeakRingPtr.h>
+#include <polybori/BooleSet.h>
+  //#include <polybori/WeakRingPtr.h>
 
 BEGIN_NAMESPACE_PBORI
 
