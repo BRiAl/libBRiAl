@@ -71,8 +71,8 @@
 #endif
 
 #else
-#include <brial/config.h>
-#include <brial/cudd/prefix.h>
+#include <polybori/config.h>
+#include <polybori/cudd/prefix.h>
 
 #ifndef CUDD_ASSERT
 

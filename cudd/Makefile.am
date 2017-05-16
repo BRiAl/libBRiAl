@@ -12,7 +12,7 @@ libcudd_la_SOURCES = \
 	cuddZddFuncs.c \
 	cuddZddSetop.c
 
-cuddincludedir = $(includedir)/brial/cudd
+cuddincludedir = $(includedir)/polybori/cudd
 
 cuddinclude_HEADERS = \
 	cudd.h \

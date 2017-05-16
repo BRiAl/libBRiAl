@@ -2,13 +2,13 @@
 
 #ifdef PBORI_FORCE_ORIGINAL_CUDD
 #include "../util/util.h"
-#define brial_cuddy_util_h_
+#define polybori_cuddy_util_h_
 #endif
 
-#ifndef brial_cuddy_util_h_
-#define brial_cuddy_util_h_
+#ifndef polybori_cuddy_util_h_
+#define polybori_cuddy_util_h_
 
-#include <brial/cudd/prefix.h>
+#include <polybori/cudd/prefix.h>
 #ifdef __cplusplus
 
 #include <ctime>

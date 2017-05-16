@@ -92,7 +92,7 @@
 #include "st.h"
 
 #else 
-#include <brial/cudd/prefix.h>
+#include <polybori/cudd/prefix.h>
 #endif
 
 #ifdef __cplusplus
