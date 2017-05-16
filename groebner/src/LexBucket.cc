@@ -7,7 +7,7 @@
  *
  */
 
-#include <brial/groebner/LexBucket.h>
+#include <polybori/groebner/LexBucket.h>
 
 BEGIN_NAMESPACE_PBORIGB
 

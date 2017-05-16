@@ -6,11 +6,11 @@
 //  Copyright 2008 The PolyBoRi Team.
 // 
 #include <exception>
-#include <brial/groebner/FGLMStrategy.h>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/add_up.h>
-#include <brial/groebner/interpolate.h>
-#include <brial/groebner/draw_matrix.h>
+#include <polybori/groebner/FGLMStrategy.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/add_up.h>
+#include <polybori/groebner/interpolate.h>
+#include <polybori/groebner/draw_matrix.h>
 
 using namespace std;
 BEGIN_NAMESPACE_PBORIGB

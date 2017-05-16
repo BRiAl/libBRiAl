@@ -15,11 +15,11 @@
 
 
 // include basic definitions
-#include <brial/groebner/ReductionStrategy.h>
-#include <brial/groebner/LessWeightedLengthInStrat.h>
-#include <brial/groebner/LessWeightedLengthInStratModified.h>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/red_tail.h>
+#include <polybori/groebner/ReductionStrategy.h>
+#include <polybori/groebner/LessWeightedLengthInStrat.h>
+#include <polybori/groebner/LessWeightedLengthInStratModified.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/red_tail.h>
 
 
 BEGIN_NAMESPACE_PBORIGB

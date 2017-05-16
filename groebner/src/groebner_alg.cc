@@ -7,30 +7,30 @@
  *
  */
 
-#include <brial/groebner/CountCriterion.h>
-#include <brial/groebner/ChainCriterion.h>
-#include <brial/groebner/ChainVariableCriterion.h>
-#include <brial/groebner/HasTRepOrExtendedProductCriterion.h>
-#include <brial/groebner/SetBitUInt.h>
-#include <brial/groebner/ZeroFunction.h>
-#include <brial/groebner/ShorterEliminationLength.h>
-#include <brial/groebner/ShorterEliminationLengthModified.h>
+#include <polybori/groebner/CountCriterion.h>
+#include <polybori/groebner/ChainCriterion.h>
+#include <polybori/groebner/ChainVariableCriterion.h>
+#include <polybori/groebner/HasTRepOrExtendedProductCriterion.h>
+#include <polybori/groebner/SetBitUInt.h>
+#include <polybori/groebner/ZeroFunction.h>
+#include <polybori/groebner/ShorterEliminationLength.h>
+#include <polybori/groebner/ShorterEliminationLengthModified.h>
 
-#include <brial/groebner/minimal_elements.h>
-#include <brial/groebner/contained_variables.h>
+#include <polybori/groebner/minimal_elements.h>
+#include <polybori/groebner/contained_variables.h>
 
 
-#include <brial/groebner/groebner_alg.h>
-#include <brial/groebner/ll_red_nf.h>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/interpolate.h>
+#include <polybori/groebner/groebner_alg.h>
+#include <polybori/groebner/ll_red_nf.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/interpolate.h>
 #include <algorithm>
 #include <set>
 
 #define DANGEROUS_FIXED_PATH 1
 
 
-#include <brial/cache/CacheManager.h>
+#include <polybori/cache/CacheManager.h>
 
 
 BEGIN_NAMESPACE_PBORIGB

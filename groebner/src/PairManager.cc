@@ -15,7 +15,7 @@
 
 
 // include basic definitions
-#include <brial/groebner/PairManager.h>
+#include <polybori/groebner/PairManager.h>
 
 BEGIN_NAMESPACE_PBORIGB
 // all inlined now

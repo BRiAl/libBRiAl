@@ -7,30 +7,30 @@
  *
  */
 
-#include <brial/groebner/PolynomialSugar.h>
-#include <brial/groebner/LMLessComparePS.h>
-#include <brial/groebner/PSCompareByEl.h>
+#include <polybori/groebner/PolynomialSugar.h>
+#include <polybori/groebner/LMLessComparePS.h>
+#include <polybori/groebner/PSCompareByEl.h>
 
 
-#include <brial/groebner/LexHelper.h>
-#include <brial/groebner/LexOrderGreaterComparer.h>
+#include <polybori/groebner/LexHelper.h>
+#include <polybori/groebner/LexOrderGreaterComparer.h>
 
-#include <brial/groebner/ExpGreater.h>
-#include <brial/groebner/PolyMonomialPairComparerLexLess.h>
-#include <brial/groebner/PolyMonomialPairComparerLess.h>
+#include <polybori/groebner/ExpGreater.h>
+#include <polybori/groebner/PolyMonomialPairComparerLexLess.h>
+#include <polybori/groebner/PolyMonomialPairComparerLess.h>
 
 
 
-#include <brial/groebner/nf.h>
-#include <brial/groebner/linear_algebra_step.h>
-#include <brial/groebner/red_tail.h>
-#include <brial/groebner/ll_red_nf.h>
-#include <brial/groebner/add_up.h>
-#include <brial/groebner/polynomial_properties.h>
-#include <brial/groebner/LexBucket.h>
-#include <brial/LexOrder.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/linear_algebra_step.h>
+#include <polybori/groebner/red_tail.h>
+#include <polybori/groebner/ll_red_nf.h>
+#include <polybori/groebner/add_up.h>
+#include <polybori/groebner/polynomial_properties.h>
+#include <polybori/groebner/LexBucket.h>
+#include <polybori/LexOrder.h>
 #include <iostream>
-#include <brial/iterators/COrderedIter.h>
+#include <polybori/iterators/COrderedIter.h>
 
 
 using std::cout;

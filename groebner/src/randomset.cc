@@ -4,13 +4,13 @@
 //  Created by  on 2007-12-13.
 //  Copyright (c) 2007 The PolyBoRi Team. See LICENSE file.
 //  PolyBoRi Project
-#include <brial/groebner/randomset.h>
+#include <polybori/groebner/randomset.h>
 
 #include <ctime> 
 #include <set>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/add_up.h>
-#include <brial/groebner/ExpLexLess.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/add_up.h>
+#include <polybori/groebner/ExpLexLess.h>
 
 BEGIN_NAMESPACE_PBORIGB
 static base_generator_type generator(static_cast<unsigned int>(std::time(0)));

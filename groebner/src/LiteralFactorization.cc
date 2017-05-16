@@ -7,10 +7,10 @@
  *
  */
 
-#include <brial/groebner/LiteralFactorization.h>
-#include <brial/groebner/LiteralFactorizationIterator.h>
+#include <polybori/groebner/LiteralFactorization.h>
+#include <polybori/groebner/LiteralFactorizationIterator.h>
 
-#include <brial/cache/CCacheManagement.h>
+#include <polybori/cache/CCacheManagement.h>
 #include <iostream>
 #include <exception>
 
@@ -391,10 +391,10 @@ bool LiteralFactorization::occursAsLeadOfFactor(idx_type v) const{
 //    return var_pair_type(std::min(i,j),std::max(i,j));
 //}
 
-bool maps_to_one( const std::pair<const brial::groebner::idx_type, int> v){
+bool maps_to_one( const std::pair<const polybori::groebner::idx_type, int> v){
     return (v.second==1);
 }
-bool maps_to_zero( const std::pair<const brial::groebner::idx_type, int>  v){
+bool maps_to_zero( const std::pair<const polybori::groebner::idx_type, int>  v){
     return (v.second==0);
 }
 bool LiteralFactorization::is11Factorization() const {

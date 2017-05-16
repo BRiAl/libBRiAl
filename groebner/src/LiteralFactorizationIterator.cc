@@ -7,8 +7,8 @@
  *
  */
 
-#include <brial/groebner/LiteralFactorizationIterator.h>
-#include <brial/groebner/LiteralFactorization.h>
+#include <polybori/groebner/LiteralFactorizationIterator.h>
+#include <polybori/groebner/LiteralFactorization.h>
 #include <stdexcept>
 
 BEGIN_NAMESPACE_PBORIGB

@@ -16,8 +16,8 @@
 
 // include basic definitions
 
-#include <brial/groebner/MatrixMonomialOrderTables.h>
-#include <brial/groebner/ExpGreater.h>
+#include <polybori/groebner/MatrixMonomialOrderTables.h>
+#include <polybori/groebner/ExpGreater.h>
 
 #include <algorithm>
 

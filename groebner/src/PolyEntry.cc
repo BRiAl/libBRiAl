@@ -15,7 +15,7 @@
 
 
 // include basic definitions
-#include <brial/groebner/PolyEntry.h>
+#include <polybori/groebner/PolyEntry.h>
 
 BEGIN_NAMESPACE_PBORIGB
 

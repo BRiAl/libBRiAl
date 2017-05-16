@@ -7,7 +7,7 @@
  *
  */
 
-#include <brial/groebner/pairs.h>
+#include <polybori/groebner/pairs.h>
 BEGIN_NAMESPACE_PBORIGB
 // nothing
 END_NAMESPACE_PBORIGB

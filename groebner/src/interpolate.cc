@@ -4,15 +4,15 @@
 //  Created by Michael Brickenstein on 2007-07-02.
 //  Copyright (c) 2007 The PolyBoRi Team. See LICENSE file.
 
-#include <brial/groebner/groebner_defs.h>
-#include <brial/cache/CCacheManagement.h>
-#include <brial/cache/CacheManager.h>
+#include <polybori/groebner/groebner_defs.h>
+#include <polybori/cache/CCacheManagement.h>
+#include <polybori/cache/CacheManager.h>
 #include <algorithm>
 #include <iostream>
-#include <brial/groebner/interpolate.h>
-#include <brial/groebner/randomset.h>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/add_up.h>
+#include <polybori/groebner/interpolate.h>
+#include <polybori/groebner/randomset.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/add_up.h>
 
 BEGIN_NAMESPACE_PBORIGB
 

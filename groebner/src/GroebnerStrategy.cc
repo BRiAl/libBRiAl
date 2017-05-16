@@ -16,35 +16,35 @@
 
 // include definitions
 
-#include <brial/groebner/HasTRepOrExtendedProductCriterion.h>
-#include <brial/groebner/ShorterEliminationLengthModified.h>
-#include <brial/groebner/tables.h>
-#include <brial/groebner/ExpGreater.h>
-#include <brial/groebner/ChainCriterion.h>
+#include <polybori/groebner/HasTRepOrExtendedProductCriterion.h>
+#include <polybori/groebner/ShorterEliminationLengthModified.h>
+#include <polybori/groebner/tables.h>
+#include <polybori/groebner/ExpGreater.h>
+#include <polybori/groebner/ChainCriterion.h>
 
 // for extended_product_criterion:
-#include <brial/groebner/HasTRepOrExtendedProductCriterion.h>
+#include <polybori/groebner/HasTRepOrExtendedProductCriterion.h>
 
-  //#include <brial/BooleSetSequence.h>
+  //#include <polybori/BooleSetSequence.h>
 
-#include <brial/groebner/minimal_elements.h>
-#include <brial/groebner/groebner_alg.h>
-#include <brial/groebner/nf.h>
-#include <brial/groebner/interpolate.h>
-#include <brial/groebner/red_tail.h>
-#include <brial/groebner/ll_red_nf.h>
-#include <brial/groebner/add_up.h>
-#include <brial/groebner/fixed_path_divisors.h>
-#include <brial/groebner/linear_algebra_step.h>
-#include <brial/groebner/GroebnerStrategy.h>
-#include <brial/groebner/RelatedTerms.h>
-#include <brial/groebner/PolyFromPolyEntry.h>
-#include <brial/groebner/TimesConstantImplication.h>
-#include <brial/groebner/TimesVariableSubstitution.h>
-#include <brial/groebner/IsVariableOfIndex.h>
-#include <brial/groebner/RedTailNth.h>
-#include <brial/groebner/GetNthPoly.h>
-#include <brial/groebner/RankingVector.h>
+#include <polybori/groebner/minimal_elements.h>
+#include <polybori/groebner/groebner_alg.h>
+#include <polybori/groebner/nf.h>
+#include <polybori/groebner/interpolate.h>
+#include <polybori/groebner/red_tail.h>
+#include <polybori/groebner/ll_red_nf.h>
+#include <polybori/groebner/add_up.h>
+#include <polybori/groebner/fixed_path_divisors.h>
+#include <polybori/groebner/linear_algebra_step.h>
+#include <polybori/groebner/GroebnerStrategy.h>
+#include <polybori/groebner/RelatedTerms.h>
+#include <polybori/groebner/PolyFromPolyEntry.h>
+#include <polybori/groebner/TimesConstantImplication.h>
+#include <polybori/groebner/TimesVariableSubstitution.h>
+#include <polybori/groebner/IsVariableOfIndex.h>
+#include <polybori/groebner/RedTailNth.h>
+#include <polybori/groebner/GetNthPoly.h>
+#include <polybori/groebner/RankingVector.h>
 #include <sstream>
 
 BEGIN_NAMESPACE_PBORIGB
