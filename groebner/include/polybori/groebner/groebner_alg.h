@@ -23,7 +23,7 @@
 #include "LessUsedTailVariablesThenLessWeightedLengthInStrat.h"
 #include "LessCombinedManySizesInStrat.h"
 
-#include <brial.h>
+#include <polybori.h>
 #include "groebner_defs.h"
 #include "pairs.h"
 #include <boost/dynamic_bitset.hpp>

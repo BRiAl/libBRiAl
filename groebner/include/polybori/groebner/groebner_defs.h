@@ -7,7 +7,7 @@
  *
  */
 
-#include <brial.h>
+#include <polybori.h>
 #include <boost/integer.hpp>
 #ifndef PBORI_GB_DEFS_H
 #define PBORI_GB_DEFS_H
@@ -24,13 +24,13 @@
 BEGIN_NAMESPACE_PBORIGB
 
 class GBTypes{
-  typedef brial::BoolePolynomial poly_type;
-  typedef brial::BooleMonomial monom_type;
+  typedef polybori::BoolePolynomial poly_type;
+  typedef polybori::BooleMonomial monom_type;
 };
-typedef brial::BoolePolynomial Polynomial;
-typedef brial::BooleMonomial Monomial;
-typedef brial::BooleVariable Variable;
-typedef brial::BooleExponent Exponent;
+typedef polybori::BoolePolynomial Polynomial;
+typedef polybori::BooleMonomial Monomial;
+typedef polybori::BooleVariable Variable;
+typedef polybori::BooleExponent Exponent;
 typedef std::vector<Polynomial> PolynomialVector;
 
 #ifdef PBORI_HAVE_LONG_LONG
@@ -41,8 +41,8 @@ typedef long wlen_type;
 typedef long len_type;
 typedef int deg_type;
 
-typedef brial::CTypes::idx_type idx_type;
-typedef brial::BooleSet MonomialSet;
+typedef polybori::CTypes::idx_type idx_type;
+typedef polybori::BooleSet MonomialSet;
 END_NAMESPACE_PBORIGB
 
 #endif

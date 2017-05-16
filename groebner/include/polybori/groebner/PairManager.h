@@ -13,8 +13,8 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_PairManager_h_
-#define brial_groebner_PairManager_h_
+#ifndef polybori_groebner_PairManager_h_
+#define polybori_groebner_PairManager_h_
 
 #include "PairStatusSet.h"
 
@@ -25,7 +25,7 @@
 #include "PolyEntry.h"
 #include "NextSpoly.h"
 #include "CheckChainCriterion.h"
-#include <brial/routines/brial_algo.h>
+#include <polybori/routines/pbori_algo.h>
 #include <utility>
 
 BEGIN_NAMESPACE_PBORIGB
@@ -102,4 +102,4 @@ private:
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_groebner_PairManager_h_ */
+#endif /* polybori_groebner_PairManager_h_ */

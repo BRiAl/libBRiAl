@@ -13,11 +13,11 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_RelatedTermsBase_h_
-#define brial_groebner_RelatedTermsBase_h_
+#ifndef polybori_groebner_RelatedTermsBase_h_
+#define polybori_groebner_RelatedTermsBase_h_
 
 #include "minimal_elements.h"
-#include <brial/ring/CMemberFunctionTraits.h>
+#include <polybori/ring/CMemberFunctionTraits.h>
 #include "BoundedDivisorsOf.h"
 
 // include basic definitions
@@ -87,4 +87,4 @@ private:
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_groebner_RelatedTermsBase_h_ */
+#endif /* polybori_groebner_RelatedTermsBase_h_ */

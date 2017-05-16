@@ -13,8 +13,8 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_ReductionTerms_h_
-#define brial_groebner_ReductionTerms_h_
+#ifndef polybori_groebner_ReductionTerms_h_
+#define polybori_groebner_ReductionTerms_h_
 
 #include "BoundedDivisorsOf.h"
 #include "RelatedTerms.h"
@@ -26,7 +26,7 @@
 #include "LeadingTerms11.h"
 #include "MonomialPlusOneTerms.h"
 
-#include <brial/routines/brial_algo.h> // which
+#include <polybori/routines/pbori_algo.h> // which
 
 
 // include basic definitions
@@ -84,4 +84,4 @@ public:
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_groebner_ReductionTerms_h_ */
+#endif /* polybori_groebner_ReductionTerms_h_ */

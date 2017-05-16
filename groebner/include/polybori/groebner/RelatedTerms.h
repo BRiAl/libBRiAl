@@ -13,11 +13,11 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_RelatedTerms_h_
-#define brial_groebner_RelatedTerms_h_
+#ifndef polybori_groebner_RelatedTerms_h_
+#define polybori_groebner_RelatedTerms_h_
 
 #include "RelatedTermsBase.h"
-#include <brial/common/TransformedSequence.h>
+#include <polybori/common/TransformedSequence.h>
 
 // include basic definitions
 #include "groebner_defs.h"
@@ -58,4 +58,4 @@ public:
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_groebner_RelatedTerms_h_ */
+#endif /* polybori_groebner_RelatedTerms_h_ */

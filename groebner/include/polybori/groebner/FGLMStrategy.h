@@ -9,7 +9,7 @@
 #ifndef fglm_header
 #define fglm_header
 
-#include <brial/BoolePolyRing.h>
+#include <polybori/BoolePolyRing.h>
 #include "groebner_alg.h"
 
 extern "C" {

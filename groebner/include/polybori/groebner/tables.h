@@ -13,31 +13,31 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_tables_h_
-#define brial_groebner_tables_h_
+#ifndef polybori_groebner_tables_h_
+#define polybori_groebner_tables_h_
 
 // include basic definitions
 #include "groebner_defs.h"
 #include <stdexcept>
-#include <brial/groebner/ZeroFunction.h>
-#include <brial/groebner/SetBitUInt.h>
+#include <polybori/groebner/ZeroFunction.h>
+#include <polybori/groebner/SetBitUInt.h>
 
 #define PBORI_HAVE_DLEX4_DATA 1
 
 #ifdef PBORI_HAVE_DLEX4_DATA
-#include <brial/groebner/dlex4data.h>
+#include <polybori/groebner/dlex4data.h>
 #endif
 
 #define PBORI_HAVE_LP4_DATA 1
 
 #ifdef PBORI_HAVE_LP4_DATA
-#include <brial/groebner/lp4data.h>
+#include <polybori/groebner/lp4data.h>
 #endif
 
 #define PBORI_HAVE_DP_ASC4_DATA 1
 
 #ifdef PBORI_HAVE_DP_ASC4_DATA
-#include <brial/groebner/dp_asc4data.h>
+#include <polybori/groebner/dp_asc4data.h>
 #endif
 
 BEGIN_NAMESPACE_PBORIGB
@@ -158,4 +158,4 @@ have_base_ordering_for_tables(const BoolePolyRing& ring){
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_groebner_tables_h_ */
+#endif /* polybori_groebner_tables_h_ */

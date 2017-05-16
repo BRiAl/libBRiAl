@@ -13,8 +13,8 @@
 **/
 //*****************************************************************************
 
-#ifndef brial_groebner_GroebnerStrategy_h_
-#define brial_groebner_GroebnerStrategy_h_
+#ifndef polybori_groebner_GroebnerStrategy_h_
+#define polybori_groebner_GroebnerStrategy_h_
 
 // include basic definitions
 #include "pairs.h"
@@ -29,7 +29,7 @@
 #include <vector>
 #include <boost/shared_ptr.hpp>
 
-#include <brial/routines/brial_algo.h> // member-for_each etc.
+#include <polybori/routines/pbori_algo.h> // member-for_each etc.
 
 BEGIN_NAMESPACE_PBORIGB
 
@@ -218,4 +218,4 @@ public:
 
 END_NAMESPACE_PBORIGB
 
-#endif /* brial_GroebnerStrategy_h_ */
+#endif /* polybori_GroebnerStrategy_h_ */

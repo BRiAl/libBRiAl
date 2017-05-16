@@ -1,6 +1,6 @@
 /*  Copyright (c) 2005-2007 by The PolyBoRi Team */
 
-#include <brial.h>
+#include <polybori.h>
 #include <algorithm>
 #include <utility>
 #include <iostream>
