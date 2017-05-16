@@ -1,4 +1,4 @@
-AC_INIT([libBRiAl], [0.9.0])
+AC_INIT([libBRiAl], [1.0.0])
 
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror tar-ustar])
