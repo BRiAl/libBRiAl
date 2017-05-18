@@ -26,3 +26,4 @@ autoconf.h*
 stamp-*
 /compile
 /py-compile
+test-driver

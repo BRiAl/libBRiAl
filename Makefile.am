@@ -1,6 +1,6 @@
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = cudd libbrial . groebner
+SUBDIRS = cudd libbrial . groebner tests
 
 lib_LTLIBRARIES = libbrial.la
 

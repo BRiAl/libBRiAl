@@ -36,6 +36,13 @@ AC_CHECK_HEADER([unordered_map],
                             [AC_MSG_ERROR("No unordered_map headers found for this compiler")])]
 )
 
+dnl Check that boost is available
+AX_BOOST_BASE([1.58.0],[],
+              [AC_MSG_ERROR("No suitable version of boost was found (1.58.0 or higher)")])
+
+dnl Check that the boost unit test framework is present for running the testsuite
+AX_BOOST_UNIT_TEST_FRAMEWORK
+
 PKG_CHECK_MODULES([M4RI], m4ri, [AC_DEFINE([PBORI_HAVE_M4RI],[],[has m4ri])])
 AC_EGREP_CPP([pbori_have_m4ri_png],
              [#include <m4ri/io.h>
@@ -102,5 +109,6 @@ AC_CONFIG_FILES([
                  libbrial/Makefile
                  libbrial/include/Makefile
                  libbrial/src/Makefile
+                 tests/Makefile
                  ])
 AC_OUTPUT
