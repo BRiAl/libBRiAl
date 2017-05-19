@@ -1,10 +1,17 @@
-include $(top_srcdir)/common.mk
+AM_CPPFLAGS = \
+	-I$(top_srcdir)/groebner/include \
+	-I$(top_builddir)/libbrial/include \
+	-I$(top_srcdir)/libbrial/include \
+	-DBOOST_TEST_DYN_LINK
 
-TESTS = unittests
+AM_CXXFLAGS = -ftemplate-depth-100
 
-unittests_SOURCES = BlockDegLexOrderTest.cc \
+AM_DEFAULT_SOURCE_EXT = .cc
+
+unittests_SOURCES = \
+	BlockDegLexOrderTest.cc \
 	BlockDegRevLexAscOrderTest.cc \
-	BooleConstantTest.cc \
+	BooleConstantTes.cct \
 	BooleEnvTest.cc \
 	BooleExponentTest.cc \
 	BooleMonomialTest.cc \
@@ -27,12 +34,14 @@ unittests_SOURCES = BlockDegLexOrderTest.cc \
 	SetFactoryTest.cc \
 	spolyTest.cc \
 	term_accumulateTest.cc \
-	unittests.cc \
-	unittests_orderings.cc \
 	VariableFactoryTest.cc \
-	weak_pointersTest.cc
+	weak_pointersTest.cc \
+	unittests.cc
 
 AM_LDFLAGS = $(BOOST_UNIT_TEST_FRAMEWORK_LIB)
 LIBS = $(top_builddir)/groebner/src/libbrial_groebner.la $(top_builddir)/libbrial.la
 
-check_PROGRAMS = $(TESTS)
+check_PROGRAMS = unittests
+
+check: unittests
+	./unittests
