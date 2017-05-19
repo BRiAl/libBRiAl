@@ -96,7 +96,7 @@ BOOST_AUTO_TEST_CASE(test_variables) {
 
   BOOST_TEST_MESSAGE( "nVariables, getVariableName, setVariableName" );
 
-  BOOST_CHECK_THROW(ring.getVariableName(-1),PBoRiError)
+  BOOST_CHECK_THROW(ring.getVariableName(-1),PBoRiError);
   BOOST_CHECK_EQUAL(ring.getVariableName(0), "x(0)");
   BOOST_CHECK_EQUAL(ring.getVariableName(1), "x(1)");
   BOOST_CHECK_EQUAL(ring.getVariableName(2), "x(2)");
