@@ -1,3 +1,7 @@
+This repo was an experiment in splitting parts of the BRiAl package.
+It is fully discontinued in favor of the main BRiAl repository.
+It is obsolete and shouldn't be used.
+
 BRiAl is the legacy version of PolyBoRi maintained by sagemath developers.
 
 libBRiAl is the C/C++ library part of BRiAl.
